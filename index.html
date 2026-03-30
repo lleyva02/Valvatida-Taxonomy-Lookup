@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taxonomy Lookup</title>
+  <style>
+    body{
+      font-family:Arial;
+      max-width: 800px;
+      margin: 50px auto;
+    }
+    input {
+      width: 70%
+      padding: 10px;
+    }
+    button {
+      padding: 10px;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Taxonomy Lookup</h1>
+<input id="searchInput" placeholder="Search organism...">
+<button onclick="search()"> Search</button>
+
+<div id="results"></div>

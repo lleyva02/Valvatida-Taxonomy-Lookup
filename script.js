@@ -6,7 +6,7 @@ fetch('taxonomy.json')
 function search () {
     const query = document.getElementById('searchInput').value.toLowerCase();
     const resultDiv = document.getElementById('results');
-    results. Div.innerHTML = "";
+    results.Div.innerHTML = "";
 
     const matches = data.filter(item =>
         item.search_text.includes(query)

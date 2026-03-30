@@ -1,4 +1,4 @@
-let data = []:
+let data = [];
 
 fetch('taxonomy.json')
   .then(res => res.json())
